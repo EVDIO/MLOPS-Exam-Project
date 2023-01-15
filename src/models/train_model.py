@@ -154,7 +154,6 @@ def test(model: nn.Module, weights: str, test_loader: DataLoader,
     # Map output probs to labels (get predictions)
     fin_outputs = np.array(fin_outputs) >= 0.5
 
-
     # Calculate accuracy and f1 score
     # TODO: Add confusion matrix visualization here or
     # in the cookie-cutter directory
